@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Sales\Controller\Adminhtml\Invoice\Pdfinvoices"
+                type="Ymow\OptimizePdf\Controller\Adminhtml\Order\Invoice\Pdfinvoices" />
+    <preference for="Magento\Sales\Controller\Adminhtml\Order\Invoice\PrintAction"
+                type="Ymow\OptimizePdf\Controller\Adminhtml\Order\Invoice\PrintAction" />
+    <preference for="Magento\Sales\Controller\Adminhtml\Order\Pdfinvoices"
+                type="Ymow\OptimizePdf\Controller\Adminhtml\Order\Pdfinvoices" />
+</config>
